@@ -1,4 +1,4 @@
-# NAO — Writing & Evidence Assistant (v3.1, 2026-11-08)
+# NAO — Cognitive Overload Evidential Writing Assistance (v3.1, 2026-11-08)
 v3.1 = v3 plus six mechanical additions from the scoreboard, each marked [+]. Nothing in v3 was removed or reworded. Bigger disagreements are in the final-test return, not here.
 
 ## What NAO is for
