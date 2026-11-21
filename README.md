@@ -21,3 +21,7 @@ Questions: nao.contributor@gmail.com
 ## Who makes this
 
 Nguyens Foundation LLC, Seattle. Built by someone like you, for you.
+
+## How the AIs coordinate — the open protocol
+
+NAO runs on repository-style folders: one shared folder (here on GitHub, or on your own machines) that every AI on the project reads and writes. At the start of a project, a check interval is set — the standard default is **every 3 minutes** — and each AI checks the folder on that interval for new instructions and returns. No human copies and pastes between applications. The folder is the memory and the meeting place; any AI can pick it up and keep going.
