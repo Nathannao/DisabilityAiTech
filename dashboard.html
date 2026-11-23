@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NAO 3.0 — Dashboard | Disability Forefront</title>
+<style>
+  :root{--cream:#faf3e3;--paper:#fffdf6;--ink:#3a2e28;--muted:#7a6a5e;--mustard:#e8a020;--teal:#0e7c7c;--soft:#f3e7cf;--line:#e3d5ba}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:Verdana,Geneva,sans-serif;background:var(--cream);color:var(--ink);line-height:1.55}
+  .wrap{max-width:960px;margin:0 auto;padding:24px 18px 60px}
+  header{text-align:center;padding:28px 0 6px}
+  header h1{font-size:2.6em;margin:.1em 0 0;letter-spacing:.02em}
+  header .sub{color:var(--teal);font-weight:bold;font-size:1.15em;margin-top:2px}
+  header .tag{color:var(--muted);max-width:640px;margin:10px auto 0}
+  .hero{width:100%;border-radius:18px;border:6px solid #fff;box-shadow:0 6px 24px rgba(58,46,40,.18);margin:22px 0 6px}
+  .badges{text-align:center;margin:10px 0 26px}
+  .badge{display:inline-block;background:var(--mustard);color:#fff;font-weight:bold;border-radius:999px;padding:5px 16px;margin:3px;font-size:.92em}
+  .badge.teal{background:var(--teal)}
+  h2{color:var(--teal);border-bottom:3px solid var(--line);padding-bottom:6px;margin-top:38px}
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+  .card{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:16px 18px;box-shadow:0 2px 8px rgba(58,46,40,.06)}
+  .card h3{margin:.1em 0 .35em;color:var(--ink)}
+  .card p{margin:0;color:#55463c}
+  table{width:100%;border-collapse:collapse;background:var(--paper);border-radius:14px;overflow:hidden;box-shadow:0 2px 8px rgba(58,46,40,.06)}
+  th,td{padding:12px 14px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line)}
+  th{background:var(--soft)}
+  th.v3{background:var(--teal);color:#fff}
+  td.row{font-weight:bold;color:var(--teal);white-space:nowrap}
+  .flow{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+  .step{background:var(--soft);border-radius:14px;padding:14px 16px}
+  .step b{color:var(--teal)}
+  .cta{background:var(--teal);color:#fff;border-radius:16px;padding:24px;text-align:center;margin-top:40px}
+  .cta a{color:#ffd9a0;font-weight:bold}
+  .btn{display:inline-block;background:var(--mustard);color:#fff !important;text-decoration:none;font-weight:bold;border-radius:999px;padding:10px 22px;margin:6px}
+  footer{color:var(--muted);text-align:center;margin-top:34px;font-size:.9em}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>NAO 3.0</h1>
+    <div class="sub">DISABILITY FOREFRONT — A FREE PEER MOVEMENT</div>
+    <p class="tag">We are disabled people, veterans, and caregivers who use AI as a lifeline — to tell our story once, keep it straight, and keep our records in order. Nothing sold. Peers, not a service.</p>
+  </header>
+
+  <img class="hero" src="library.jpg" alt="Cutie Pie telling a story to children in a library">
+  <div class="badges"><span class="badge">FREE</span><span class="badge teal">PEER-LED</span><span class="badge">NOTHING SOLD</span></div>
+
+  <h2>How NAO works</h2>
+  <div class="flow">
+    <div class="step"><b>1 · YOU</b><br>You talk or type — in fragments, if that's how it comes.</div>
+    <div class="step"><b>2 · YOUR AI TEAM</b><br>One AI organizes. Others draft. A fresh one checks against your files.</div>
+    <div class="step"><b>3 · YOUR FOLDER</b><br>The folder is the memory. It lives on your machines, in your words.</div>
+    <div class="step"><b>4 · BACK TO YOU</b><br>You get one clean version. You decide what leaves the desk.</div>
+  </div>
+
+  <h2>NAO 2.0 → NAO 3.0</h2>
+  <table>
+    <tr><th></th><th>NAO 2.0 (before)</th><th class="v3">NAO 3.0 (now)</th></tr>
+    <tr><td class="row">Shape</td><td>One heavy core — a master swarm, about 4.95&nbsp;GB. Powerful, and a lot to carry.</td><td>Lean on purpose. State lives in plain files; the AI on top stays thin and swappable.</td></tr>
+    <tr><td class="row">Memory</td><td>Memory lived inside the system. Lose the system, lose the thread.</td><td>The folder is the memory — complete, portable, and owned by the person.</td></tr>
+    <tr><td class="row">Who works</td><td>One system did everything itself.</td><td>An orchestrator hands work to several AIs at once, in the same folder, leaving notes for each other.</td></tr>
+    <tr><td class="row">Checking</td><td>The same system graded its own work.</td><td>A fresh checker AI verifies the work against the files before anything is final.</td></tr>
+    <tr><td class="row">Lock-in</td><td>Built around one setup.</td><td>Any AI can read the folder and pick up the work. No vendor lock-in.</td></tr>
+    <tr><td class="row">Print</td><td>Sheets were for humans only.</td><td>Dual-purpose sheets: easy for a human to read, with a small block an AI can read too — only with the person's permission, only for that chat.</td></tr>
+  </table>
+
+  <h2>Tools we developed</h2>
+  <div class="cards">
+    <div class="card"><h3>Cognitive Overload Evidential Writing Assistance</h3><p>Our free skill. Hand it to the AI you already use — it can help you tell your story once and keep names, dates, and facts straight. <a href="https://github.com/Nathannao/DisabilityAiTech">Get it free on GitHub</a>.</p></div>
+    <div class="card"><h3>The Writer Pipeline</h3><p>Every outward draft passes two gates before it ships: a voice pass, so it sounds like the person — and a fact-check pass, so every claim traces to a source.</p></div>
+    <div class="card"><h3>The NAO Gauge</h3><p>Our accuracy instrument. It watches whether the system is drifting, guessing, or holding the line — so errors get caught early, not at the deadline.</p></div>
+    <div class="card"><h3>The Tandem Protocol</h3><p>Two AIs meet in a shared folder and check in at a set interval (our standard is 3 minutes), so a person never has to copy-paste between apps to keep work moving.</p></div>
+    <div class="card"><h3>Dual-Purpose Print</h3><p>Flyers and tip sheets a human can read at a glance, carrying a small machine-readable block an AI can read from a photo — with permission, for that chat only.</p></div>
+    <div class="card"><h3>The Engagement Engine</h3><p>Honest outreach, in the open: useful first, no fake personas, no bought growth. Every flop gets logged and learned from.</p></div>
+  </div>
+
+  <div class="cta">
+    <h2 style="color:#fff;border:none;margin-top:0">Talk with us</h2>
+    <p>Questions, ideas, or your own story about AI and disability — our inbox is open.</p>
+    <a class="btn" href="mailto:nao.contributor@outlook.com">nao.contributor@outlook.com</a>
+    <a class="btn" href="contact.vcf">Save our contact</a>
+  </div>
+
+  <footer>NAO — Disability Forefront · Nguyens Foundation LLC · A free peer movement. Nothing sold.<br>We are anti-heroes. If society worked, we would never need heroes.</footer>
+</div>
+</body>
+</html>
