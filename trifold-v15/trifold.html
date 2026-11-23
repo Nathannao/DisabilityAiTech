@@ -1,0 +1,130 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>N.A.O. OS trifold v15 (conference, NAO 3.0)</title>
+<style>
+@page{size:11in 8.5in;margin:0}
+:root{--cream:#FBF4E4;--navy:#0E1627;--gold:#E8A020;--teal:#0F5C5A;--brown:#5A3E2E;--mint:#DCEEEC;--ink:#1c2230}
+*{box-sizing:border-box;margin:0}
+body{font-family:"Inter","DejaVu Sans",sans-serif;color:var(--ink);-webkit-font-smoothing:antialiased}
+.sheet{width:11in;height:8.5in;display:flex;page-break-after:always;overflow:hidden}
+.panel{width:calc(11in/3);height:8.5in;padding:.46in .42in .4in;background:var(--cream);display:flex;flex-direction:column;gap:.14in;position:relative}
+.dark{background:var(--navy);color:#fff}
+.eyebrow{font-size:9.5pt;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+.light .eyebrow,.panel:not(.dark) .eyebrow{color:var(--teal)}
+h1,h2{font-family:"Inter Display","Inter",sans-serif;letter-spacing:-.01em}
+h2{font-size:21pt;line-height:1.05;font-weight:800;color:var(--navy);margin-top:-.08in}
+.dark h2{color:#fff}
+.rule{height:3px;width:.5in;background:var(--gold);border-radius:2px}
+p{font-size:12pt;line-height:1.45}
+.pull{font-family:"Inter Display","Inter",sans-serif;font-weight:800;font-size:22pt;line-height:1.08;color:var(--navy);border-left:5px solid var(--gold);padding-left:.14in;letter-spacing:-.01em}
+.hero{font-family:"Inter Display","Inter",sans-serif;font-weight:800;font-size:26pt;line-height:1.04;color:#fff;letter-spacing:-.015em}
+.hero em{font-style:normal;color:var(--gold)}
+img{width:100%;display:block}
+.art{border-radius:14px;border:3px solid var(--gold)}
+.fill{flex:1;min-height:0;object-fit:cover;object-position:center top}
+.item{border-left:4px solid var(--teal);padding:.01in 0 .01in .13in}
+.item b{display:block;font-size:11pt;letter-spacing:.04em;color:var(--teal)}
+.item span{font-size:11.5pt;line-height:1.35}
+.box{background:var(--navy);color:#fff;border-radius:12px;padding:.14in .17in}
+.box h3{font-size:9.5pt;font-weight:700;letter-spacing:.16em;color:var(--gold);margin-bottom:.06in}
+.box p,.box li{font-size:11.5pt;line-height:1.38}
+.box ul{list-style:none;padding:0}.box li{padding-left:.22in;position:relative;margin-bottom:.04in}
+.box li:before{content:"✓";position:absolute;left:0;color:var(--gold);font-weight:800}
+.gold{background:var(--gold);color:var(--navy);border-radius:12px;padding:.13in .17in}
+.gold h3{font-size:9.5pt;letter-spacing:.16em;font-weight:800;margin-bottom:.04in}
+.gold p{font-weight:700;font-size:12pt;line-height:1.35}
+.small{font-size:10pt;line-height:1.35;color:#555}.dark .small{color:#b9c3d8}
+.qr{display:flex;gap:.13in;align-items:center}.qr img{width:.95in;background:#fff;padding:4px;border-radius:8px;flex:none}
+.qr p{font-size:11pt;font-weight:700;color:var(--teal);line-height:1.3}
+.sp{flex:1}
+.nodes{position:relative;padding-left:.38in;display:flex;flex-direction:column;gap:.16in}
+.nodes:before{content:"";position:absolute;left:.12in;top:.12in;bottom:.12in;width:3px;background:var(--gold)}
+.node{position:relative}.node:before{content:"";position:absolute;left:-.34in;top:.03in;width:.17in;height:.17in;border-radius:50%;background:var(--navy);border:3px solid var(--gold)}
+.node b{display:block;font-size:12pt;color:var(--navy)}.node span{font-size:11pt;color:#444}
+.steps{display:grid;grid-template-columns:1fr 1fr;gap:.06in}
+.steps div{font-size:10.5pt;font-weight:700;color:var(--teal);background:var(--mint);border-radius:8px;padding:.06in .09in;display:flex;gap:.07in;align-items:center}
+.steps i{font-style:normal;background:var(--teal);color:#fff;border-radius:50%;width:.2in;height:.2in;display:grid;place-items:center;font-size:8.5pt;flex:none}
+.brand{display:flex;align-items:center;gap:.12in}.brand img{width:.6in}
+.brand b{font-family:"Inter Display";font-size:19pt;letter-spacing:.06em;font-weight:800}
+.pill{display:inline-block;border:2px solid var(--gold);color:var(--gold);border-radius:999px;padding:.07in .2in;font-weight:800;font-size:11.5pt;letter-spacing:.02em}
+</style></head><body>
+
+<!-- PAGE 1: OUTSIDE (left = inside flap, middle = back, right = front cover) -->
+<section class="sheet">
+ <div class="panel">
+  <div class="eyebrow">Sound familiar?</div>
+  <p>Every office wants the story again. You tell it once. Then again. It wears you out.</p>
+  <p class="pull">How many ideas died because the focus broke?</p>
+  <p>When a thought won't finish, the task doesn't finish. That costs more than time. It costs self-esteem.</p>
+  <p>And AI adds to it: the grinding, the context wall, the confident wrong answer.</p>
+  <img class="art fill" src="img/comic_left.png" alt="A grandmother, a girl and a mascot in a hoodie sharing coffee and ideas">
+ </div>
+
+ <div class="panel">
+  <div class="eyebrow">Talk to us</div>
+  <h2>Pilot it.<br>Break it.<br>Build with us.</h2>
+  <div class="rule"></div>
+  <p class="pull" style="font-size:15pt">We don't claim it's finished. We claim it's joined.</p>
+  <p>Contributors found it. Members test it in the open. Open sessions <b>Dec 1</b> and <b>Dec 9</b>: try it, tell us where it breaks.</p>
+  <div class="box">
+   <h3>PROOF SO FAR</h3>
+   <ul><li>An AI sat in on a live Zoom presentation. Early, rough, real.</li><li>A one-page printout got an employee into a hard meeting ready.</li><li>Members are completing forms and complaint letters.</li></ul>
+  </div>
+  <div class="sp"></div>
+  <div class="qr"><img src="img/qr_contact.png" alt="QR code to save contact"><p>Scan to save our contact</p></div>
+  <p class="small">Nathan NAO · nao.contributor@outlook.com</p>
+ </div>
+
+ <div class="panel dark">
+  <div class="brand"><img src="img/logo_mark.png" alt=""><b>N.A.O. OS</b></div>
+  <div class="eyebrow" style="margin-top:-.06in">Neuro-Assistance Operating System</div>
+  <p class="hero" style="margin-top:.1in">Memory<br><em>you own.</em><br>Thinking<br><em>you rent.</em></p>
+  <img class="art fill" src="img/comic_cover.png" alt="People of all ages and abilities working together in a library with a friendly robot" style="object-position:center">
+  <p style="font-size:12pt;line-height:1.4">Durable memory for AI, in plain files. Any model you choose. Built by and for people with disabilities.</p>
+  <p class="small">For neurodivergent minds, cognitive overload, and living with mental health distress.</p>
+  <div><span class="pill">Be righteous.</span><p class="small" style="margin-top:.08in">One next step at a time.</p></div>
+ </div>
+</section>
+
+<!-- PAGE 2: INSIDE -->
+<section class="sheet">
+ <div class="panel">
+  <div class="eyebrow">The landscape</div>
+  <h2>Every system<br>falls short.</h2>
+  <div class="item"><b>CLAUDE CODE</b><span>Grinds for hours. Hits the context wall, loses the thread.</span></div>
+  <div class="item"><b>DATABASES + VECTORS</b><span>Find by resemblance. Stitch the wrong chunk, fluently.</span></div>
+  <div class="item"><b>CLOUD COMPUTERS</b><span>Create dependency. Costs climb. Moving your data out is limited, on their terms.</span></div>
+  <div class="item"><b>LOCAL PRIVATE MODELS</b><span>Stupidly expensive to run. The upkeep never ends.</span></div>
+  <p style="font-weight:800;font-size:13pt;line-height:1.3;color:var(--brown)">No villain. Just limits. So we stopped picking a winner and made them work together.</p>
+  <div class="sp"></div>
+  <div class="box"><h3>OUR OWN TEST</h3><p><b style="color:var(--gold)">50 errors</b> with no gauge.<br><b style="color:var(--gold)">11</b> with gauge and cap.<br><b style="color:var(--gold)">4</b> with a fresh-context check.<br>0 items lost. New hardware: $0.</p><p class="small" style="margin-top:.05in;color:#b9c3d8">Simulation, graded by us. Not independent proof.</p></div>
+ </div>
+
+ <div class="panel">
+  <div class="eyebrow">The design</div>
+  <h2>Fat library.<br>Thin client.</h2>
+  <p style="font-size:11.5pt">One folder of plain files: Markdown notes and a JSON ledger. Facts dated, sourced, reconciled. Originals stored once.</p>
+  <div class="nodes">
+   <div class="node"><b>Any device</b><span>the phone already in your pocket</span></div>
+   <div class="node"><b>The library</b><span>your files, yours to keep</span></div>
+   <div class="node"><b>Any model</b><span>thinking, rented by the hour</span></div>
+  </div>
+  <p style="font-size:11.5pt"><b>A vendor can lose your subscription. It cannot lose your record.</b> Honest limit: any AI still rereads. It just never starts from zero.</p>
+  <div class="gold"><h3>THE GAUGE</h3><p>Scores each task against your decision log before work starts. A settled decision is never re-asked. At most one question for you.</p></div>
+  <div class="steps"><div><i>1</i>Gauge</div><div><i>2</i>Well, cap 8</div><div><i>3</i>Work</div><div><i>4</i>Fresh check</div><div style="grid-column:1/-1"><i>5</i>Ends by clearing</div></div>
+ </div>
+
+ <div class="panel">
+  <div class="eyebrow">Where it's going</div>
+  <h2>Your doctor has a scribe.</h2>
+  <p>It holds the visit. You have your memory, and on a hard day, fragments. Your intent, and how you express it, are limited by durable memory.</p>
+  <p class="pull" style="font-size:17pt">Imagine yours comes along, and is HIPAA-safe.</p>
+  <p>Holding the details when memory slips. Privacy designed in from the start.</p>
+  <div class="box">
+   <h3>WHAT N.A.O. NEVER DOES</h3>
+   <ul><li>Your data stays in your folder.</li><li>Nothing is recorded without your say.</li><li>The AI never contacts anyone on its own.</li></ul>
+  </div>
+  <div class="sp"></div>
+  <div class="qr"><img src="img/qr_evidence.png" alt="QR code to the evidence"><p>The design and the evidence</p></div>
+  <p class="small" style="color:var(--brown);font-weight:700">Interdependent, never dependent. Less AI. More truth.</p>
+ </div>
+</section>
+</body></html>
