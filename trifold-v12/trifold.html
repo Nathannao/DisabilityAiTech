@@ -1,0 +1,108 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>N.A.O. OS trifold v12 (conference)</title>
+<style>
+@page{size:11in 8.5in;margin:0}
+:root{--cream:#FAF1E0;--navy:#0E1627;--gold:#E8A020;--teal:#0F5C5A;--brown:#5A3E2E;--mint:#DCEEEC}
+*{box-sizing:border-box;margin:0}
+body{font-family:"Atkinson Hyperlegible","DejaVu Sans",Verdana,sans-serif;color:#1d1d1d}
+.sheet{width:11in;height:8.5in;display:flex;page-break-after:always;overflow:hidden}
+.panel{width:calc(11in/3);height:8.5in;padding:.38in .36in;background:var(--cream);display:flex;flex-direction:column;gap:.11in}
+.dark{background:var(--navy);color:#fff}
+h2{background:var(--navy);color:var(--gold);font-size:14pt;letter-spacing:.02em;padding:.08in .13in;border-radius:8px;line-height:1.2}
+p{font-size:12.5pt;line-height:1.35}
+.big{font-size:17pt;font-weight:700;line-height:1.2;color:var(--brown)}
+.hero{font-size:23pt;font-weight:800;line-height:1.1;color:var(--gold)}
+img{width:100%;display:block;border-radius:6px}
+.fill{flex:1;min-height:0;object-fit:cover;object-position:center top}
+.box{background:var(--navy);color:#fff;border-radius:8px;padding:.11in .15in}
+.box h3{color:var(--gold);font-size:12.5pt;margin-bottom:.04in}
+.box p,.box li{font-size:12pt;line-height:1.32}.box ul{padding-left:.19in}
+.mint{background:var(--mint);border-radius:8px;padding:.08in .13in}
+.mint b{display:block;color:var(--teal);font-size:12.5pt}.mint span{font-size:11.5pt;line-height:1.28}
+.gold{background:var(--gold);color:var(--navy);border-radius:8px;padding:.1in .15in}
+.gold p{font-weight:700;font-size:12.5pt}
+.small{font-size:10.5pt;line-height:1.3;color:#444}.dark .small{color:#cfd6e4}
+.qr{display:flex;gap:.12in;align-items:center}.qr img{width:.9in;border-radius:0;background:#fff;padding:3px;flex:none}
+.qr p{font-size:11.5pt;font-weight:700;color:var(--teal)}
+.sp{flex:1}
+.flow{display:flex;flex-direction:column;gap:.03in;align-items:stretch}
+.flow div{background:var(--navy);color:var(--gold);border-radius:7px;padding:.06in .1in;text-align:center;font-weight:800;font-size:11.5pt;line-height:1.2}
+.flow div small{display:block;color:#fff;font-weight:400;font-size:10pt}
+.flow i{text-align:center;color:var(--gold);font-style:normal;line-height:.9;font-size:12pt}
+.brand{display:flex;align-items:center;gap:.12in;justify-content:center}.brand img{width:.62in;border-radius:0}
+.brand b{font-size:20pt;letter-spacing:.04em}
+</style></head><body>
+
+<!-- PAGE 1: OUTSIDE (left = inside flap, middle = back, right = front cover) -->
+<section class="sheet">
+ <div class="panel">
+  <h2>SOUND FAMILIAR?</h2>
+  <p>Every office wants the story again. You tell it once. Then again. It wears you out.</p>
+  <p>When a thought won't finish, the task doesn't finish. That costs more than time. It costs self-esteem.</p>
+  <p class="big">How many ideas died because the focus broke?</p>
+  <p>And AI adds to it: the grinding, the context wall, the confident wrong answer.</p>
+  <img class="fill" src="img/comic_left.png" alt="A grandmother, a girl and a mascot in a hoodie sharing coffee and ideas">
+ </div>
+
+ <div class="panel">
+  <h2>TALK TO US</h2>
+  <p>Pilot it. Break it. Build with us. We're after people who will test memory that users own, and tell us where it fails.</p>
+  <p>We also host online peer sessions: people with disabilities talking about using AI as an assistive tool, and about the systems that feel hostile to us.</p>
+  <div class="box">
+   <h3>WHAT N.A.O. NEVER DOES</h3>
+   <ul><li>Use your data against you</li><li>Record anyone without their okay</li><li>Lock your files in. They are plain files that open anywhere.</li></ul>
+  </div>
+  <div class="sp"></div>
+  <div class="qr"><img src="img/qr_contact.png" alt="QR code to save contact"><p>Scan to save our contact</p></div>
+  <p class="small">Nathan NAO<br>nao.contributor@outlook.com</p>
+ </div>
+
+ <div class="panel dark" style="align-items:center;text-align:center">
+  <div class="brand"><img src="img/logo_mark.png" alt=""><b>N.A.O. OS</b></div>
+  <p class="small" style="margin-top:-.05in">Neuro-Assistance Operating System</p>
+  <p class="hero" style="margin-top:.06in">Tell your story once.<br>Never start from zero.</p>
+  <img src="img/comic_cover.png" alt="People of all ages and abilities working together in a library with a friendly robot">
+  <p style="font-size:12.5pt;line-height:1.3">Durable memory for AI. Plain files you own. Any model you choose.</p>
+  <p class="small">Built for neurodivergent minds, cognitive overload, and living with mental health distress.</p>
+  <p style="color:var(--gold);font-weight:800;font-size:13pt;margin-top:.04in">Be righteous.<br>One next step at a time.</p>
+ </div>
+</section>
+
+<!-- PAGE 2: INSIDE -->
+<section class="sheet">
+ <div class="panel">
+  <h2>FAT LIBRARY.<br>THIN CLIENT.</h2>
+  <p>One folder of plain files: Markdown notes and a JSON ledger of events, names and facts, linked. New facts are reconciled against old ones (dated, sourced, agreed) so memory doesn't distort. Originals are stored once.</p>
+  <div class="flow">
+   <div>ANY DEVICE<small>the phone already in your pocket</small></div><i>▼</i>
+   <div>THE LIBRARY<small>your files, yours to keep</small></div><i>▼</i>
+   <div>ANY MODEL<small>thinking, rented by the hour</small></div>
+  </div>
+  <p>Any AI walks in, reads the library and is caught up. Honest limit: it still rereads. It just never starts from zero.</p>
+  <div class="box"><h3>WHAT YOU GET</h3><p>Less grinding. Less context-maxing. Fewer hallucinations.</p></div>
+ </div>
+
+ <div class="panel">
+  <h2>PROJECT, START TO FINISH</h2>
+  <div class="mint"><b>1 · YOU</b><span>Input in fragments is fine.</span></div>
+  <div class="mint"><b>2 · ORCHESTRATOR</b><span>Assigns the work, checks every return.</span></div>
+  <div class="mint"><b>3 · PEER MODELS</b><span>Other AIs review the structure.</span></div>
+  <div class="mint"><b>4 · CODING AGENT</b><span>Bulk work in the real folder. Timer and ledger.</span></div>
+  <div class="mint"><b>5 · RED-TEAM PASS</b><span>De-identified copies checked for consensus.</span></div>
+  <div class="mint"><b>6 · HUMAN GATE</b><span>You review, with advisors: legal, accounting, friends.</span></div>
+  <div class="gold"><p>THE PATCH RULE<br>First fix is a fix. Second is flagged. Third time: stop patching and write a fresh copy.</p></div>
+ </div>
+
+ <div class="panel">
+  <h2>WHERE IT'S GOING</h2>
+  <p>Your doctor already uses an AI scribe. But your intent, and how you express it, are limited by durable memory.</p>
+  <p class="big" style="font-size:16pt">Imagine it comes along, and is HIPAA-safe.</p>
+  <p>Holding the details when memory slips. Privacy designed in from the start.</p>
+  <div class="box">
+   <h3>PROOF SO FAR</h3>
+   <ul><li>An AI sat in on a live Zoom presentation. Early, rough, real.</li><li>A one-page printout got an employee into a hard meeting ready.</li><li>Members are completing forms and complaint letters.</li></ul>
+  </div>
+  <div class="gold"><p>THE PACT<br>Interdependent, never dependent. Less AI. More truth.</p></div>
+  <div class="qr"><img src="img/qr_evidence.png" alt="QR code to the evidence"><p>The design and the evidence</p></div>
+ </div>
+</section>
+</body></html>
