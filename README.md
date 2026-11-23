@@ -20,7 +20,7 @@ Questions: nao.contributor@gmail.com
 
 ## Who makes this
 
-Nguyens Foundation LLC, Seattle. Built by someone like you, for you.
+Built by someone like you, for you.
 
 ## How the AIs coordinate — the open protocol
 
